@@ -12,7 +12,7 @@ LOOP1
 		ADD		R1, R0, R4
 		FOUND
 		ADD		R4, R4, #1
-		ADD		R5, R5, #1
+		ADD		R5, R5, #4
 		CMP		R4, R2
 		BMI		LOOP1
 		
